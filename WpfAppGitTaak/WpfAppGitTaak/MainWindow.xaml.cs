@@ -24,5 +24,47 @@ namespace WpfAppGitTaak
         {
             InitializeComponent();
         }
+
+        private void Image_MouseEnter(object sender, MouseEventArgs e)
+        {
+            this.Background = Brushes.Yellow;
+
+
+        }
+
+        private void Image_MouseLeave(object sender, MouseEventArgs e)
+        {
+            this.Background = Brushes.LightGray;
+        }
+
+        private void Image_MouseEnter_1(object sender, MouseEventArgs e)
+        {
+            this.Background = Brushes.Blue;
+        }
+
+        private void Image_MouseLeave_1(object sender, MouseEventArgs e)
+        {
+            this.Background = Brushes.LightGray;
+        }
+
+        private void Image_MouseEnter_2(object sender, MouseEventArgs e)
+        {
+            this.Background = Brushes.Red;
+        }
+
+        private void Image_MouseLeave_2(object sender, MouseEventArgs e)
+        {
+            this.Background = Brushes.LightGray;
+        }
+
+        private void Image_MouseEnter_3(object sender, MouseEventArgs e)
+        {
+            this.Background = Brushes.Green;
+        }
+
+        private void Image_MouseLeave_3(object sender, MouseEventArgs e)
+        {
+            this.Background = Brushes.LightGray;
+        }
     }
 }
