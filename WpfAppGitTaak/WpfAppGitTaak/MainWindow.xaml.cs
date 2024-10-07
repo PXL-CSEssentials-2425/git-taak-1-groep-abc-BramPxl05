@@ -66,5 +66,38 @@ namespace WpfAppGitTaak
         {
             this.Background = Brushes.LightGray;
         }
+
+        private void Image_MouseEnter_4(object sender, MouseEventArgs e)
+        {
+            this.Background = Brushes.Black;
+        }
+
+        private void Image_MouseLeave_4(object sender, MouseEventArgs e)
+        {
+            this.Background = Brushes.LightGray;
+        }
+
+       
+
+        private void Image_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            kleurcodebox.Text = "Rood:#FF0000";
+        }
+
+        private void Image_MouseDown_1(object sender, MouseButtonEventArgs e)
+        {
+            kleurcodebox.Text = "Geel:#FFFF00";
+        }
+
+        private void Image_MouseDown_2(object sender, MouseButtonEventArgs e)
+        {
+            kleurcodebox.Text = "Groen:#008000";
+        }
+
+        private void Image_MouseDown_3(object sender, MouseButtonEventArgs e)
+        {
+            kleurcodebox.Text = "Blauw:#0000FF";
+
+        }
     }
 }
