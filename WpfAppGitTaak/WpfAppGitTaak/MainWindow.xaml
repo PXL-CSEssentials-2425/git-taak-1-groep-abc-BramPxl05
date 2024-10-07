@@ -9,6 +9,7 @@
     <Grid>
         <TextBox Name="kleurtextbox" HorizontalAlignment="Left" Margin="49,39,0,0" TextWrapping="Wrap" Text="kleurenpsychologie
                " VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <Image Source="/PXL.png"  Width="120" Height="100" Margin="690,0,-10,334"/>
 
     </Grid>
 </Window>
