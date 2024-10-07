@@ -82,22 +82,25 @@ namespace WpfAppGitTaak
         private void Image_MouseDown(object sender, MouseButtonEventArgs e)
         {
             kleurcodebox.Text = "Rood:#FF0000";
+            informatiebox.Text = "Rood is de kleur van warmte";
         }
 
         private void Image_MouseDown_1(object sender, MouseButtonEventArgs e)
         {
             kleurcodebox.Text = "Geel:#FFFF00";
+            informatiebox.Text = "Geel is de kleur van levenslust";
         }
 
         private void Image_MouseDown_2(object sender, MouseButtonEventArgs e)
         {
             kleurcodebox.Text = "Groen:#008000";
+            informatiebox.Text = "Groen is de kleur van genezing";
         }
 
         private void Image_MouseDown_3(object sender, MouseButtonEventArgs e)
         {
             kleurcodebox.Text = "Blauw:#0000FF";
-
+            informatiebox.Text = "Blauw is de kleur van intelligentie";
         }
     }
 }
